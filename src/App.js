@@ -55,43 +55,43 @@ function App() {
       <CartContext.Provider value={{ cartData, setCartData }} >
         <Header />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/products' element={<AllProducts />} />
-          <Route path='/categories' element={<Categories />} />
-          <Route path='/category/:category_slug/:category_id' element={<CategoryProduct />} />
-          <Route path='/products/:tag' element={<TagProducts />} />
-          <Route path="/product/:product_slug/:product_id" element={<ProductDetail />} />
-          <Route path='/checkout' element={<Checkout />} />
-          <Route path='/confirm-order' element={<ConfirmOrder />} />
-          <Route path='/order/success' element={<OrderSuccess />} />
-          <Route path='/order/Failure' element={<OrderFailure />} />
+          <Route path='/ecommerce/' element={<Home />} />
+          <Route path='/ecommerce/products' element={<AllProducts />} />
+          <Route path='/ecommerce/categories' element={<Categories />} />
+          <Route path='/ecommerce/category/:category_slug/:category_id' element={<CategoryProduct />} />
+          <Route path='/ecommerce/products/:tag' element={<TagProducts />} />
+          <Route path="/ecommerce/product/:product_slug/:product_id" element={<ProductDetail />} />
+          <Route path='/ecommerce/checkout' element={<Checkout />} />
+          <Route path='/ecommerce/confirm-order' element={<ConfirmOrder />} />
+          <Route path='/ecommerce/order/success' element={<OrderSuccess />} />
+          <Route path='/ecommerce/order/Failure' element={<OrderFailure />} />
           {/* Customer Routes */}
-          <Route path='/customer/register' element={<Register />} />
-          <Route path='/customer/login' element={<Login />} />
-          <Route path='/customer/logout' element={<CustomerLogout />} />
-          <Route path='/customer/dashboard' element={<Dashboard />} />
-          <Route path='/customer/orders' element={<Orders />} />
-          <Route path='/customer/wishlist' element={<Wishlist />} />
-          <Route path='/customer/profile' element={<Profile />} />
-          <Route path='/customer/addresses' element={<AddressList />} />
-          <Route path='/customer/add-address' element={<AddAddress />} />
-          <Route path='/customer/update-address/:address_id' element={<UpdateAddress />} />
-          <Route path='/customer/change-password' element={<ChangePassword />} />
+          <Route path='/ecommerce/customer/register' element={<Register />} />
+          <Route path='/ecommerce/customer/login' element={<Login />} />
+          <Route path='/ecommerce/customer/logout' element={<CustomerLogout />} />
+          <Route path='/ecommerce/customer/dashboard' element={<Dashboard />} />
+          <Route path='/ecommerce/customer/orders' element={<Orders />} />
+          <Route path='/ecommerce/customer/wishlist' element={<Wishlist />} />
+          <Route path='/ecommerce/customer/profile' element={<Profile />} />
+          <Route path='/ecommerce/customer/addresses' element={<AddressList />} />
+          <Route path='/ecommerce/customer/add-address' element={<AddAddress />} />
+          <Route path='/ecommerce/customer/update-address/:address_id' element={<UpdateAddress />} />
+          <Route path='/ecommerce/customer/change-password' element={<ChangePassword />} />
           {/* Seller Routes */}
-          <Route path='/seller/register' element={<SellerRegister />} />
-          <Route path='/seller/login' element={<SellerLogin />} />
-          <Route path='/seller/logout' element={<SellerLogout />} />
-          <Route path='/seller/dashboard' element={<SellerDashboard />} />
-          <Route path='/seller/products' element={<SellerProducts />} />
-          <Route path='/seller/add-product' element={<AddProduct />} />
-          <Route path='/seller/update-product/:product_id' element={<UpdateProduct />} />
-          <Route path='/seller/orders' element={<VendorOrders />} />
-          <Route path='/seller/customers' element={<Customers />} />
-          <Route path='/seller/customer/:customer_id/orderitems' element={<CustomerOrders />} />
-          <Route path='/seller/reports' element={<Reports />} />
-          <Route path='/seller/daily-report' element={<DailyReport />} />
-          <Route path='/seller/profile' element={<VendorProfile />} />
-          <Route path='/seller/change-password' element={<VendorChangePassword />} />
+          <Route path='/ecommerce/seller/register' element={<SellerRegister />} />
+          <Route path='/ecommerce/seller/login' element={<SellerLogin />} />
+          <Route path='/ecommerce/seller/logout' element={<SellerLogout />} />
+          <Route path='/ecommerce/seller/dashboard' element={<SellerDashboard />} />
+          <Route path='/ecommerce/seller/products' element={<SellerProducts />} />
+          <Route path='/ecommerce/seller/add-product' element={<AddProduct />} />
+          <Route path='/ecommerce/seller/update-product/:product_id' element={<UpdateProduct />} />
+          <Route path='/ecommerce/seller/orders' element={<VendorOrders />} />
+          <Route path='/ecommerce/seller/customers' element={<Customers />} />
+          <Route path='/ecommerce/seller/customer/:customer_id/orderitems' element={<CustomerOrders />} />
+          <Route path='/ecommerce/seller/reports' element={<Reports />} />
+          <Route path='/ecommerce/seller/daily-report' element={<DailyReport />} />
+          <Route path='/ecommerce/seller/profile' element={<VendorProfile />} />
+          <Route path='/ecommerce/seller/change-password' element={<VendorChangePassword />} />
 
         </Routes>
         <Footer />
