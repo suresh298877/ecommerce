@@ -2,7 +2,8 @@ import { useState } from 'react';
 import Sidebar from './Sidebar';
 import axios from 'axios';
 
-const baseUrl = 'http://127.0.0.1:8000/api'
+const baseUrl = 'https://suresh2988.pythonanywhere.com/api'
+// const baseUrl = 'http://127.0.0.1:8000/api'
 function AddAddress() {
     var customer_id = localStorage.getItem('customer_id');
     const [ErrorMsg, setErrorMsg] = useState('');

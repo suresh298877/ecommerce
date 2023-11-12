@@ -3,7 +3,8 @@ import Sidebar from './Sidebar';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 
-const baseUrl = 'http://127.0.0.1:8000/api'
+const baseUrl = 'https://suresh2988.pythonanywhere.com/api'
+// const baseUrl = 'http://127.0.0.1:8000/api'
 function UpdateAddress() {
     const {address_id}=useParams();
     var customer_id = localStorage.getItem('customer_id');

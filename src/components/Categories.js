@@ -2,7 +2,8 @@ import { Link } from 'react-router-dom';
 import logo from './logo.svg';
 import { useEffect, useState } from 'react';
 function Categories() {
-    const baseUrl = 'http://127.0.0.1:8000/api'
+    const baseUrl = 'https://suresh2988.pythonanywhere.com/api'
+    // const baseUrl = 'http://127.0.0.1:8000/api'
     const [categories, SetCategories] = useState([])
     const [totalResult, setTotalResults] = useState(0)
 

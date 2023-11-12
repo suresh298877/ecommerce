@@ -6,8 +6,11 @@ import { CurrencyContext } from '../../Context'
 import { findAllInRenderedTree } from 'react-dom/test-utils';
 import axios from 'axios';
 function Wishlist(props) {
+
+    //checking whether added or not
     const { CurrencyData } = useContext(CurrencyContext)
-    const baseUrl = 'http://127.0.0.1:8000/api';
+    const baseUrl = 'https://suresh2988.pythonanywhere.com/api';
+    // const baseUrl = 'http://127.0.0.1:8000/api';
     const customerId = localStorage.getItem('customer_id');
     const [WishItems, setWishItems] = useState([]);
     useEffect(() => {

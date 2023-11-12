@@ -3,7 +3,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 function SellerRegister(props) {
-    const baseUrl = 'http://127.0.0.1:8000/api/';
+    const baseUrl = 'https://suresh2988.pythonanywhere.com/api/';
+    // const baseUrl = 'http://127.0.0.1:8000/api/';
 
     const [formError, setFormError] = useState(false);
     const [errorMsg, setErrorMsg] = useState('');

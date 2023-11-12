@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import SingleProduct from './SingleProduct';
 import { useEffect, useState } from 'react';
 function Home() {
-    const baseUrl = 'http://127.0.0.1:8000/api'
+    // const baseUrl = 'http://127.0.0.1:8000/api'
+    const baseUrl = 'https://suresh2988.pythonanywhere.com/api'
     const [products, setProducts] = useState([])
     // const [totalResult, setTotalResults] = useState(0)
     useEffect(() => {

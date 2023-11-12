@@ -3,7 +3,8 @@ import { CartContext, CurrencyContext, UserContext } from '../Context'
 import axios, { formToJSON } from 'axios';
 import { PayPalButtons, PayPalScriptProvider } from '@paypal/react-paypal-js';
 
-const baseUrl = 'http://127.0.0.1:8000/api';
+const baseUrl = 'https://suresh2988.pythonanywhere.com/api';
+// const baseUrl = 'http://127.0.0.1:8000/api';
 function ConfirmOrder() {
   const [ConfirmOrder, SetConfirmOrder] = useState(false);
   const [PayMethod, SetPayMethod] = useState('');

@@ -4,7 +4,8 @@ import SingleRelatedProduct from './SingleRelatedProduct';
 import { CartContext, CurrencyContext, UserContext } from '../Context';
 import axios from 'axios';
 function ProductDetail() {
-    const baseUrl = 'http://127.0.0.1:8000/api'
+    const baseUrl = 'https://suresh2988.pythonanywhere.com/api'
+    // const baseUrl = 'http://127.0.0.1:8000/api'
     const [productData, setProductData] = useState([])
     const [productImgs, setproductImgs] = useState([])
     const [productTags, setProductTags] = useState([])

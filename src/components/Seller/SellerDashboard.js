@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import SellerSidebar from "./SellerSidebar";
 import { Link } from "react-router-dom";
-const baseUrl = 'http://127.0.0.1:8000/api/';
+const baseUrl = 'https://suresh2988.pythonanywhere.com/api/';
+// const baseUrl = 'http://127.0.0.1:8000/api/';
 function SellerDashboard(props) {
     const [VendorData,setVendorData]=useState({
         'totalProducts':0,

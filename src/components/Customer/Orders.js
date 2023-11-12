@@ -4,7 +4,8 @@ import logo from '../logo.svg';
 import { useEffect, useState } from 'react';
 import OrderRow from './OrderRow';
 function Orders(props) {
-    const baseUrl = 'http://127.0.0.1:8000/api';
+    const baseUrl = 'https://suresh2988.pythonanywhere.com/api';
+    // const baseUrl = 'http://127.0.0.1:8000/api';
     const customerId = localStorage.getItem('customer_id');
     const [OrderItems, setOrderItems] = useState([]);
     useEffect(() => {

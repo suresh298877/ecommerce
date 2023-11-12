@@ -3,7 +3,8 @@ import Sidebar from './Sidebar';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 function AddressList(props) {
-    const baseUrl = 'http://127.0.0.1:8000/api';
+    const baseUrl = 'https://suresh2988.pythonanywhere.com/api';
+    // const baseUrl = 'http://127.0.0.1:8000/api';
     var customer_id = localStorage.getItem('customer_id');
     const [AddressList, setAddressList] = useState([]);
     useEffect(() => {

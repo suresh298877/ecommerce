@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react';
 import SellerSidebar from './SellerSidebar';
 import axios from 'axios';
 function AddProduct(props) {
-    const baseUrl = 'http://127.0.0.1:8000/api';
+    // const baseUrl = 'http://127.0.0.1:8000/api';
+    const baseUrl = 'https://suresh2988.pythonanywhere.com/api';
     const vendor_id = localStorage.getItem('vendor_id');
     const [CategoryData, setCategoryData] = useState([]);
 
