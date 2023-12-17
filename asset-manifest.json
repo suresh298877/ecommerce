@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Ecommerce-website-frontend-code-artisan-lab/static/css/main.0eca8728.css",
-    "main.js": "/Ecommerce-website-frontend-code-artisan-lab/static/js/main.55c3a278.js",
-    "static/js/787.cda612ba.chunk.js": "/Ecommerce-website-frontend-code-artisan-lab/static/js/787.cda612ba.chunk.js",
-    "static/media/logo.svg": "/Ecommerce-website-frontend-code-artisan-lab/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/Ecommerce-website-frontend-code-artisan-lab/index.html",
-    "main.0eca8728.css.map": "/Ecommerce-website-frontend-code-artisan-lab/static/css/main.0eca8728.css.map",
-    "main.55c3a278.js.map": "/Ecommerce-website-frontend-code-artisan-lab/static/js/main.55c3a278.js.map",
-    "787.cda612ba.chunk.js.map": "/Ecommerce-website-frontend-code-artisan-lab/static/js/787.cda612ba.chunk.js.map"
+    "main.css": "/static/css/main.0eca8728.css",
+    "main.js": "/static/js/main.9cb84bb2.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.0eca8728.css.map": "/static/css/main.0eca8728.css.map",
+    "main.9cb84bb2.js.map": "/static/js/main.9cb84bb2.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0eca8728.css",
-    "static/js/main.55c3a278.js"
+    "static/js/main.9cb84bb2.js"
   ]
 }
